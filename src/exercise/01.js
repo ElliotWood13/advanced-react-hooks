@@ -4,7 +4,6 @@
 import * as React from 'react'
 
 function countReducer(state, action) {
-  console.log(state)
   switch(action.type) {
     case 'INCREMENT':
       return ({count: state.count + action.step})
